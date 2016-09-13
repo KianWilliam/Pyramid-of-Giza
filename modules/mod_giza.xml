@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension	type="module" version="3.x" method="upgrade" client="site" >
+	<name>Giza</name>
+	<author>Kian William Nowrouzian</author>
+	<creationDate>July 2016</creationDate>
+	<copyright>Copyright (C) 2015 http://www.myextenstions.lord121.ir, All rights reserved.</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>mezmer121@gmail.com</authorEmail>
+	<authorUrl>http://www.myextenstions.lord121.ir</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[
+			<div style="font-weight:bold;background-color:#B94FB6;color:#fff;padding:5px">
+			<p><strong>Module Pyramid of Giza, all configurations are in backend of the component.</strong></p>
+			<p>
+				For support &/or any question go to <a href="http://www.myextenstions.lord121.ir" target="_blank">Kian William 's Extensions</a>
+			</p>
+			<small style="float:right">ver. 1.0.0</small>
+			</div>
+     ]]>
+	 </description>
+	 <files>
+		<filename module="mod_giza">mod_giza.php</filename>
+		<filename>mod_giza.xml</filename>
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>index.html</filename>
+	 </files>
+	 <languages folder="language">
+         <language tag="en-GB">en-GB/en-GB.mod_giza.ini</language>
+         <language tag="en-GB">en-GB/en-GB.mod_giza.sys.ini</language>
+     </languages>
+	 <config>	 
+		<fields name="params">
+			<fieldset name="basic">
+				<field type="list" name="jQuery" label="MOD_GIZA_LOAD_LABEL" description="MOD_GIZA_LOAD_DESC" default="1">
+					<option value="0">Yes</option>
+					<option value="1">No</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field type="sql" name="title" label="MOD_GIZA_PYRAMID_ID_LABEL" description="MOD_GIZA_PYRAMID_ID_DESC" query="SELECT id as VALUE, title FROM #__giza" default="1" />
+			</fieldset>
+		</fields>
+	 </config>
+
+</extension>
