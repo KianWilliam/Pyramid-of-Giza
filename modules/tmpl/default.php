@@ -26,7 +26,7 @@ defined('_JEXEC') or die;
 $document = JFactory::getDocument();
 $document->addStyleSheet(JURI::base()."components/com_giza/assets/css/giza.css");
 
-  if($itemmod->params->get('jQuery')==0)
+  if($itemmod->params->get('jQuery')==1)
   {
 	  $document->addScript(JURI::base()."components/com_giza/assets/js/jquery.js");
   }
