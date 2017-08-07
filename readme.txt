@@ -26,10 +26,10 @@ the values above are all experimental, I give the dimension and for constant val
 function like this: 100x=5y , input the values in the function and experimentally by viewing the pyramid a close constant shall be obtained as this:
 constant = (width - 55) / 20 , e.g dim = 555, to reach 100x=5y , 555-55/20 = 500/20 =x - 55 /20 = y or constant.
 the same way for apex, left of dim's left of pyramid and etc.
-you may view the module at:
-http://myextenstions.lord121.ir/2015-12-17-11-58-05/giza.html
+you may view the extension at:
+http://extensions.lord121.ir/mycomponents/giza-demo.html
 and also downloading the complete package at:
-http://myextenstions.lord121.ir/2015-12-17-11-58-05/com-giza.html
+http://extensions.lord121.ir/mycomponents/giza-download.html
 In case of any problem contact me at:
 mezmer121@gmail.com
 long live science.
