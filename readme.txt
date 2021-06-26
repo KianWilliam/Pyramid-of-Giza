@@ -27,9 +27,9 @@ function like this: 100x=5y , input the values in the function and experimentall
 constant = (width - 55) / 20 , e.g dim = 555, to reach 100x=5y , 555-55/20 = 500/20 =x - 55 /20 = y or constant.
 the same way for apex, left of dim's left of pyramid and etc.
 you may view the extension at:
-http://extensions.lord121.ir/mycomponents/giza-demo.html
+http://richsky.lord1art121.ir
 and also downloading the complete package at:
-http://extensions.lord121.ir/mycomponents/giza-download.html
+https://extensions.kwproductions121.com/mycomponents/giza-download.html
 In case of any problem contact me at:
-mezmer121@gmail.com
+webarchitect@kwproductions121.com
 long live science.
